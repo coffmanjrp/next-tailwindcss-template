@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function Home() {
   return (
@@ -12,7 +12,14 @@ export default function Home() {
         <h1 className="text-6xl font-bold">
           Welcome to{' '}
           <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
+            Next.js
+          </a>{' '}
+          with{' '}
+          <a
+            className="text-blue-600"
+            href="https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss"
+          >
+            tailwindcss!
           </a>
         </h1>
 
@@ -78,5 +85,5 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  )
+  );
 }
